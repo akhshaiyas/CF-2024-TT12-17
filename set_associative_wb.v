@@ -1,6 +1,6 @@
-`timescale 1ps/1ps
+`timescale 1ns/1ps
 
-module set_associative #(
+module set_associative_wb #(
     parameter MAPPING     = "set_assoc",
     parameter WRITING     = "write_back",
     parameter REPLACEMENT = "LFU_FIFO",
