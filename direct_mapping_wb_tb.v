@@ -11,7 +11,7 @@ module direct_cache_wb_tb;
 
     parameter CACHE_SIZE = 64;
 
-    direct_mapped_wt #(
+    direct_mapped #(
         .CACHE_SIZE(CACHE_SIZE),
         .WRITING("write_back")
     ) uut (
