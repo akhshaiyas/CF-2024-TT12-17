@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module direct_mapped_wt #( 
+module direct_mapped #( 
     parameter MAPPING     = "direct",
     parameter WRITING     = "write_through",  // or "write_back"
     parameter CACHE_SIZE  = 64
